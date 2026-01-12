@@ -1,38 +1,31 @@
-# leasein-frontend
+# Leasein Backend
 
-This template should help get you started developing with Vue 3 in Vite.
+API REST para gestión y validación de equipos tecnológicos.
 
-## Recommended IDE Setup
+## Tecnologías
+- Laravel 10
+- PostgreSQL
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Endpoints
+- GET /api/equipos
+- POST /api/validar-equipos
 
-## Recommended Browser Setup
+## Instalación
+1. Clonar repositorio
+2. Configurar .env
+3. composer install
+4. php artisan migrate --seed
+5. php artisan serve
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+# Leasein Frontend
 
-## Customize configuration
+Aplicación Vue 3 para visualización y filtrado de equipos.
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## Tecnologías
+- Vue 3
+- PrimeVue
+- Axios
 
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+## Instalación
+1. npm install
+2. npm run dev
